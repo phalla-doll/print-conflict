@@ -250,7 +250,7 @@ export default function Home() {
             
              <div className="w-full lg:w-1/2 min-h-[500px] lg:min-h-0 relative grayscale border-accent-2">
                <Image 
-                  src="https://images.unsplash.com/photo-1542452255191-c85a9ea12d82?auto=format&fit=crop&q=80&w=1200&h=1600"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1200&h=1600"
                   alt="Portrait of the designer"
                   fill
                   className="object-cover object-center opacity-80"
