@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* Editorial Theme */
+  --color-primary: #F2F2F2; /* previously pitch black, now off-white text */
+  --color-background: #0C0C0C; /* previously bone, now deep black */
+  --color-accent-1: #8E8E8E; /* accent text */
+  --color-accent-2: #333333; /* dim lines/borders */
+  --color-accent-3: #8E8E8E; 
+
+  /* Map existing punk font variables to the clean editorial stack */
+  --font-bebas: 'Georgia', serif; 
+  --font-satoshi: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    font-family: var(--font-satoshi);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-bebas);
+    font-weight: 300;
+  }
+}
+
